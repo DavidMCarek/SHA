@@ -105,6 +105,6 @@ int main(int argc, char * argv[]) {
 	printf("%llX %llX %llX %llX %llX %llX %llX %llX\n", hashValue[0], hashValue[1], hashValue[2], hashValue[3], hashValue[4], hashValue[5], hashValue[6], hashValue[7]);
 	// print elapsed time
 	std::chrono::duration<double> elapsedTime = end - start;
-	printf("Elapsed time : %.3f s\n", elapsedTime.count());
+	printf("Elapsed Time: %.3f Seconds\n", elapsedTime.count());
 	return 0;
 }
